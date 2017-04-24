@@ -1,0 +1,17 @@
+name: world_gen_sandbox
+version: 0.1.0
+
+authors:
+  - Ian Rash <redcodefinal@gmail.com>
+
+targets:
+  world_gen_sandbox:
+    main: src/world_gen_sandbox.cr
+
+dependencies:
+  world_gen:
+    github: redcodefinal/world_gen
+
+crystal: 0.21.1
+
+license: MIT

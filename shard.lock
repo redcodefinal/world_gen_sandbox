@@ -1,0 +1,18 @@
+version: 1.0
+shards:
+  perlin_noise:
+    github: redcodefinal/perlin_noise
+    commit: 649991871a23ef3f81b80d85df3f6ac4b4a5a4c2
+
+  stumpy_core:
+    git: https://github.com/l3kn/stumpy_core.git
+    commit: 0764149a3f4d1c92748bf1275c73c0cdbe96fcb6
+
+  stumpy_png:
+    github: l3kn/stumpy_png
+    version: 4.1.1
+
+  world_gen:
+    github: redcodefinal/world_gen
+    commit: 005e76fc8a203d171973813509b39a1360874a54
+
