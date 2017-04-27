@@ -2,7 +2,7 @@ version: 1.0
 shards:
   perlin_noise:
     github: redcodefinal/perlin_noise
-    commit: 26a1aa2f9f85bf7aef66b23bb0a83e453f99545e
+    commit: 4603eac36c060b14c4d5be81282654af774ce276
 
   stumpy_core:
     git: https://github.com/l3kn/stumpy_core.git
