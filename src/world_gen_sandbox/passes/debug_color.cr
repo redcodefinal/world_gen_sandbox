@@ -3,7 +3,7 @@ module DebugColor
     r_s = (UInt8::MAX * (x.to_f/x_range.size)).to_u8.to_s(16)
     g_s = (UInt8::MAX * (y.to_f/y_range.size)).to_u8.to_s(16)
     b_s = (UInt8::MAX * (z.to_f/z_range.size)).to_u8.to_s(16)
-    a_s = (UInt8::MAX/5).to_s(16)
+    a_s = (UInt8::MAX).to_s(16)
 
     if r_s.size == 1
       r_s = r_s.insert(0, "0") 

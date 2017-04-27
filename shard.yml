@@ -11,6 +11,8 @@ targets:
 dependencies:
   world_gen:
     github: redcodefinal/world_gen
+  perlin_noise:
+    github: redcodefinal/perlin_noise
 
 crystal: 0.21.1
 

@@ -1,0 +1,45 @@
+views:
+  north_west:
+    deg_0: none
+    deg_90:
+      base:
+        color: none
+        flip_h: true
+    deg_180:
+      base:
+        color: none
+        flip_h: false
+    deg_270: none
+  north_east:
+    deg_0:
+      base:
+        color: none
+        flip_h: true
+    deg_90:
+      base:
+        color: none
+        flip_h: false
+    deg_180: none
+    deg_270: none
+  south_west:
+    deg_0: none
+    deg_90: none
+    deg_180:
+      base:
+        color: none
+        flip_h: true
+    deg_270:
+      base:
+        color: none
+        flip_h: false
+  south_east:
+    deg_0:
+      base:
+        color: none
+        flip_h: false
+    deg_90: none
+    deg_180: none
+    deg_270:
+      base:
+        color: none
+        flip_h: true

@@ -14,5 +14,5 @@ shards:
 
   world_gen:
     github: redcodefinal/world_gen
-    commit: 005e76fc8a203d171973813509b39a1360874a54
+    commit: 37da680481c2488b4a2a00b74c0c5f5ea5ca1120
 

@@ -1,0 +1,13 @@
+views:
+  north_west:
+    none:
+      block.base: none
+  north_east:
+    none:
+      block.base: none
+  south_west:
+    none:
+      block.base: none
+  south_east:
+    none:
+      block.base: none

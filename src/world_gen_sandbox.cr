@@ -1,3 +1,4 @@
 require "./world_gen_sandbox/**"
 
-ExampleWorld.new((0..20),(0..20),(0..10)).draw_world "w.png"
+cw = CityWorld.new((0..100), (0..100), (0..10))
+cw.draw_world "w.png"
