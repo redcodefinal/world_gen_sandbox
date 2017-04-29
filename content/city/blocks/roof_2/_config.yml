@@ -1,0 +1,21 @@
+views:
+  north_west:
+    none:
+      base: none
+      feature:
+        color: FF0000FF
+  north_east:
+    none:
+      base: none
+      feature:
+        color: FF0000FF
+  south_west:
+    none:
+      base: none
+      feature:
+        color: FF0000FF
+  south_east:
+    none:
+      base: none
+      feature:
+        color: FF0000FF

@@ -1,0 +1,46 @@
+views:
+  north_west:
+    deg_0:
+      base: none
+    deg_90:
+      base:
+        flip_h: true
+    deg_180:
+      base: none
+    deg_270:
+      base:
+        flip_h: true
+  north_east:
+    deg_90:
+      base: none
+    deg_0:
+      base:
+        flip_h: true
+    deg_270:
+      base: none
+    deg_180:
+      base:
+        flip_h: true
+  south_west:
+    deg_0:
+      base: none
+    deg_90:
+      base:
+        flip_h: true
+    deg_180:
+      base: none
+    deg_270:
+      base:
+        flip_h: true
+  south_east:
+    none:
+    deg_90:
+      base: none
+    deg_0:
+      base:
+        flip_h: true
+    deg_270:
+      base: none
+    deg_180:
+      base:
+        flip_h: true
