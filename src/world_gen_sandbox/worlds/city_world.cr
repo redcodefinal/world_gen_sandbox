@@ -30,8 +30,8 @@ class CityWorld < World
   WINDOWS = ["window_1", "window_2", "window_3", "window_4"]
   WINDOWS_SEED  = make_seed
 
-  X_ROAD_SEED = "x_road_seed".hash * DIMINISH
-  Y_ROAD_SEED = "y_road_seed".hash * DIMINISH
+  X_ROAD_SEED = make_seed
+  Y_ROAD_SEED = make_seed
   
   CITY_ROAD_CHANCE = 4
   CITY_ROAD_OUTOF = 7
@@ -70,7 +70,7 @@ class CityWorld < World
   BOAT_CHANCE = 1
   BOAT_OUTOF = 400
 
-  DOCK_LEVEL_END = 0.2
+  DOCK_LEVEL_END = 0.23
   DOCK_X_SEED = make_seed
   DOCK_Y_SEED = make_seed
   DOCK_CHANCE = 1
@@ -282,7 +282,7 @@ class CityWorld < World
       y.odd? &&
       get_density(x, y) < WATER_LEVEL && 
       get_density(x, y) > DOCK_LEVEL_END &&
-      @perlin.bool(x, DOCK_CHANCE, DOCK_OUTOF, DOCK_X_SEED)
+      @perlin.bool(x, DOCK_CHANCE, DOCK_OUTOF, DOCK_Y_SEED)
     end
   end
 
@@ -339,9 +339,9 @@ class CityWorld < World
       elsif is_boat?(x, y, z)
         b.type = "boat"
         blocks << b
-      #elsif is_dock?(x, y, z)
-      #  b.type = "dock"
-      #  blocks << b  
+      elsif is_dock?(x, y, z)
+        b.type = "dock"
+        blocks << b  
       end
       Block.new
     end
